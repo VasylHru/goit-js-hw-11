@@ -32,6 +32,7 @@ body {
 }
 
 #search-form {
+ padding-left: 50%;
   margin-bottom: 20px;
 }
 
@@ -47,7 +48,8 @@ body {
 }
 
 .gallery-item img {
-  width: 360px;
+  width: 500px;
+  height: 400px;
   display: block;
 }
 
