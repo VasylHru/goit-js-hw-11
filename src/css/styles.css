@@ -47,7 +47,7 @@ body {
 }
 
 .gallery-item img {
-  width: 100%;
+  width: 360px;
   display: block;
 }
 
