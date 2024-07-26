@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-  
-
     <section>
-      <h1>Example page title</h1>
-      <img src="./img/javascript.svg" alt="" />
-      
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-query"
+          placeholder="Enter search term"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="loading-indicator" class="hidden">Loading</div>
+      <div id="gallery"></div>
     </section>
-
-
-   
-
     <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/pixabay-api.js"></script>
+    <script type="module" src="./js/render-function.js"></script>
   </body>
 </html>
