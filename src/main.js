@@ -1,6 +1,6 @@
 
-import { fetchImages } from '../js/pixabay-api.js';
-import { renderImages } from '../js/render-function.js';
+import { fetchImages } from './js/pixabay-api.js';
+import { renderImages } from './js/render-function.js';
 
 
 document.addEventListener('DOMContentLoaded', () => {
